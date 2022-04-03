@@ -46,11 +46,13 @@ input, textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    background: var(--color-primary);
+    background: rgb(70, 69, 69);
     border: 8px soild var(--color-primary); 
     resize: none; 
-    color: white;
+    color: white;   
 }
+
+
 
 /* ------ Media Query for medium devices (Tablets) ----------- */
 @media screen and (max-width: 1024px) {

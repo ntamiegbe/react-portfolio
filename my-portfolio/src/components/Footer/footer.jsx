@@ -22,11 +22,7 @@ const footer = () => {
           <a href="#"> <FaInstagramSquare /> </a>
           <a href="https://twitter.com/ntamiegbe"> <FaTwitter /> </a>
         </div>
-
-        <div className="footer__copyright">
-          <small> &copy; Ntami Egbe 2022. All rights reserved </small>
-        </div>
-
+        
     </footer>
   )
 }

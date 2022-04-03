@@ -20,6 +20,12 @@ const About = () => {
         </div>
 
         <div className="about__content">
+
+            
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique iure aliquam recusandae necessitatibus! Sapiente distinctio dignissimos maiores, similique expedita necessitatibus sequi. Culpa recusandae qui totam voluptas? Consequatur voluptas dolores delectus qui, debitis nemo laborum et, quod explicabo fugit officiis dolorem eveniet placeat doloribus labore? Assumenda similique tempora commodi minima quia?
+            </p>
+
             <div className="about__cards">
               <article className="about__card">
                 <FaAward className='about__icon'/>
@@ -30,19 +36,15 @@ const About = () => {
               <article className="about__card">
                 <FaUsers className='about__icon'/>
                 <h5> Clients </h5>
-                <small> Over 20 Clients worked with </small>
+                <small> Over 10 Clients worked with </small>
               </article>
 
               <article className="about__card">
                 <AiFillFolderOpen className='about__icon'/>
                 <h5> Projects </h5>
-                <small> 40+ completed projects </small>
+                <small> 30+ completed projects </small>
               </article>
             </div>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cupiditate rerum nesciunt ex. Exercitationem, corporis. Explicabo officiis architecto placeat, officia.
-            </p>
 
             <a href="#Contact" className='btn btn-primary'> Let's Talk </a>
         </div>

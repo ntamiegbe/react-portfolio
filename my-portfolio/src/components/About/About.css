@@ -6,17 +6,22 @@
 
 .about__me {
     width: 100%;
+    height: 65%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
-    place-items: center;
+}
+
+.about__content p {
+    padding: 2rem 0 2.6rem;
+    color: var(--color-light);
 }
 
 .about__me-img {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    transform: rotate(7deg);
     transition: var(--transition);
 }
 
@@ -28,6 +33,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .about__card {
@@ -60,10 +66,7 @@
     color: var(--color-light);
 }
 
-.about__content p {
-    padding: 2rem 0 2.6rem;
-    color: var(--color-light);
-}
+
 
 /* ------ Media Query for medium devices (Tablets) ----------- */
 @media screen and (max-width: 1024px) {

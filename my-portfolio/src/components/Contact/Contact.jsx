@@ -52,10 +52,10 @@ const Contact = () => {
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Full Name' required/>
-          <input type="email" name='email' placeholder='Email' required/>
-          <textarea name="message" rows="10" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'> Send Message </button>
+            <input type="text" name='name' placeholder='Full Name' required/>
+            <input type="email" name='email' placeholder='Email' required/>
+            <textarea name="message" rows="10" placeholder='Your Message' required></textarea>
+            <button type='submit' className='btn btn-primary'> Send Message </button>
         </form>
       </div>
     </section>

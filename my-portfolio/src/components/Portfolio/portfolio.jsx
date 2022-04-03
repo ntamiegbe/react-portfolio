@@ -24,7 +24,7 @@ const data = [
   {
     id: 3,
     image: IMG3,  
-    title: 'Project 3',
+    title: 'A web based discussion platform for students. Made with react,css and a touch of love. E-mail by email.js',
     github: '#',
     demo: '#'
   }
@@ -44,7 +44,7 @@ const portfolio = () => {
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
-              <h3> {title}</h3>
+              <h3> {title} </h3>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn' target="_blank"> Github </a>
                 <a href={demo} className='btn btn-primary' target="_blank"> Live Demo </a>
